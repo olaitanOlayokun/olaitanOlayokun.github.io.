@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Cause</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="/script.js" defer></script>
+
+    <!-- Add your Google fonts here -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet"/>
+
+
+
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+   
+   
+
+
+  </head>
+
+  <body>
+    
+    <nav>
+      <!-- Add the navigation bar here-->
+      <ul class="nav-bar">
+        <li class="nav-item"><a href="about.html">About</a></li>
+        <li class="nav-item"><a href="take-action.html">Take Action</a></li>
+        <li class="nav-item"><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+
+    <header class="homepage-heading">
+      <!--Top section with title and description-->
+      <h1>
+      The dangers of bullying and how to prevent it!
+      </h1>
+    </header>
+    
+    <main>
+        <div>
+          <img src="assets/bully.jpg" alt="One young boy who is punching another young boy">
+        </div>
+  
+        <div>
+          <img src="assets/cyber.jpg" alt="A young girl looking overwhelmed, with both of her electronic devices opened in front of her">
+    
+        </div>
+  
+        <div>
+          <img src="assets/phone.jpg" alt="A young girl crying over her phone">
+        </div>
+  
+      <h2>The threats of Bullying both on the Net and in our schools</h2>
+        <p>
+         The actions and intentions surrounding Bullying has been plague schools and the internet for years on end. Some students have been subjected to the constant harrasment and sometimes unprovoked abuse from their peers,  it's time to now take a stand against Bullying and be more aware of it's signs
+        </p>
+
+         <button id="factButton"> Click Me! </button>
+
+        <p id="factTextArea">Bullying can lead to more severe emotions like lonliness, depression, and anxiety</p>
+
+
+        
+        <p class="attribution">Facts from this <a href="https://i.cartoonnetwork.com/stop-bullying/pdfs/CN_Stop_Bullying_Cyber_Bullying_Report_9.30.20.pdf">Stop- bullying- cyber-Bullying report</a></p>
+
+        
+
+    </main>
+  </body>
+</html>
